@@ -3601,6 +3601,12 @@ Footer styles
     display: block;
     text-align: right; }
 
+@media (max-width: 992px) {
+    .footer-bottomAlt span, .footermedia {
+        display: inline !important;
+    }
+}
+
 /****sticky-footer**/
 /**sticky footer*/
 html.footer-sticky, .footer-sticky body {
